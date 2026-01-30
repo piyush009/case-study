@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ideas-api-service
+  namespace: ideas-api
+  labels:
+    app: ideas-api
+spec:
+  type: ClusterIP  # Internal service, exposed via Ingress
+  ports:
+  - port: 80
+    targetPort: 8000
+    protocol: TCP
+    name: http
+  selector:
+    app: ideas-api
+  sessionAffinity: None

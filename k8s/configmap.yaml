@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ideas-api-config
+  namespace: ideas-api
+data:
+  # Application configuration
+  APP_NAME: "ideas-api"
+  ENVIRONMENT: "dev"
+  LOG_LEVEL: "INFO"
