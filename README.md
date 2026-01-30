@@ -418,3 +418,4 @@ DevOps Engineer - Case Study Project
 ---
 
 **Note**: This is a demonstration project showcasing DevOps best practices. For production use, additional considerations like monitoring, alerting, backup strategies, and disaster recovery should be implemented.
+
